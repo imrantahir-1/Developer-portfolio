@@ -1,8 +1,7 @@
 /* common shared styles */
 body {
     font-family: 'lato', sans-serif;
-    font-family: 'open sans', sans-serif;
-}
+    font-family: 'open sans', sans-serif;}
 
 .text-praimary {
     color: #fd6e0a
@@ -102,6 +101,10 @@ nav a {
 
 
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section styles */
 
 
@@ -112,4 +115,10 @@ nav a {
     margin: 130px 0;
 }
 
-
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
